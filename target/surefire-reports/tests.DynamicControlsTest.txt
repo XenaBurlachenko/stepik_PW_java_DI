@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tests.DynamicControlsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 222.518 s - in tests.DynamicControlsTest

@@ -1,4 +1,4 @@
-package scr.test.java.utils;
+package utils;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserContext;

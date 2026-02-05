@@ -1,3 +1,16 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.project.sourcePaths": ["src/main/java", "src/test/java"],
+    "java.project.outputPath": "target/classes",
+    "java.project.referencedLibraries": [
+        "target/dependency/*.jar"
+    ],
+    "java.test.config": {
+        "name": "JUnit Jupiter",
+        "workingDirectory": "${workspaceFolder}",
+        "vmArgs": [
+            "-Dfile.encoding=UTF-8"
+        ]
+    },
+    "java.test.defaultConfig": "JUnit Jupiter"
 }

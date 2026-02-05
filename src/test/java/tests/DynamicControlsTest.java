@@ -1,10 +1,15 @@
-package scr.test.java.tests;
+package tests;
 
-import org.junit.jupiter.api.*;
-import scr.test.java.pages.DynamicControlsPage;
-import scr.test.java.utils.TestContext;
+import org.junit.jupiter.api.AfterEach;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import pages.DynamicControlsPage;
+import utils.TestContext;
 
 public class DynamicControlsTest {
     private TestContext context;
